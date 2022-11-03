@@ -21,8 +21,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.NavHostFragment.Companion.findNavController
+import com.example.lunchtray.R
 import com.example.lunchtray.databinding.FragmentEntreeMenuBinding
 import com.example.lunchtray.model.OrderViewModel
+import com.example.lunchtray.ui.order.SideMenuFragment
 
 /**
  * [EntreeMenuFragment] allows people to add an entree to the order or cancel the order.
@@ -66,6 +69,7 @@ class EntreeMenuFragment : Fragment() {
      */
     fun goToNextScreen() {
         // TODO: Navigate to the SideMenuFragment
+      //  findNavController().navigate(R.id.)
     }
 
     /**
@@ -85,3 +89,4 @@ class EntreeMenuFragment : Fragment() {
         _binding = null
     }
 }
+
