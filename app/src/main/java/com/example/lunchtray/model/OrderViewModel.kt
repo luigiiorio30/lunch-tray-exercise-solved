@@ -103,7 +103,7 @@ class OrderViewModel : ViewModel() {
         if (_subtotal.value != null) {
             _subtotal.value = _subtotal.value!! - previousAccompanimentPrice
         }
-        _side.value = menuItems[accompaniment]
+        _accompaniment.value = menuItems[accompaniment]
         updateSubtotal(_accompaniment.value!!.price)
     }
 

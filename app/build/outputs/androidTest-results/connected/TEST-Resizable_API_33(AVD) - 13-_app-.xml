@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.lunchtray.MenuContentTests" tests="3" failures="0" errors="0" skipped="0" time="6.365" timestamp="2022-11-03T11:09:05" hostname="localhost">
+  <properties>
+    <property name="device" value="Resizable_API_33(AVD) - 13" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="side_menu_item_content" classname="com.example.lunchtray.MenuContentTests" time="1.901" />
+  <testcase name="entree_menu_item_content" classname="com.example.lunchtray.MenuContentTests" time="0.731" />
+  <testcase name="accompaniment_menu_item_content" classname="com.example.lunchtray.MenuContentTests" time="0.834" />
+</testsuite>
